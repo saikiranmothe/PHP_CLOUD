@@ -31,7 +31,11 @@
 	echo $str . "<br>";
 	echo chop($str,"Words!");
 	$str2 = "simple word \n \t ";
-	
+  echo $hr;
+	echo "<h2>CHR FUNCTION</h2>";
+	$str23 = "saikiran";
+	$str24 = "kiran";
+	echo chr($str23) + chr($str24); 
 ?>
 
 
