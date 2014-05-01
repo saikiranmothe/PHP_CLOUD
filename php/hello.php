@@ -1,11 +1,13 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title></title>
 </head>
+
+<h1>PHP Workspace</h1>
 <body>
-	<?php 	
-	 		echo "Single Line Comments";
+<?php 	
+	  echo "Single Line Comments";
 		#single line comments in php
 	  //commenting in PHP
 
@@ -19,14 +21,14 @@
 
 	  //Variables 
       //global variable 
-			$global = "value"  // It can access globally ,,through out program
+			$global = "value";  // It can access globally ,,through out program
 
 			function DemoFunction(arg1,arg2,arg3){
-			  $local_variable = "value" //static variable == limit upto function
+			  $local_variable = "value"; //static variable == limit upto function
 			
 			}
 
-      $variable_name = "value"
+      $variable_name = "value";
 		
       //Boolean Values 
       $boolean = true;  #some comment 
@@ -50,7 +52,7 @@
 
 
      //DELETE VARIABLE 
-      unset($int1)
+      unset($int1);
 
 
     /*
@@ -67,7 +69,7 @@
     $number += 1;  // Incremented $number by 1 
     echo $number;
     echo ++$number;
-    echo $variable_name
+    echo $variable_name;
     
 
     $number /= $float; // Divide and assing the quitient to $number 
@@ -130,11 +132,11 @@ $associative = array('one'=> 1,'two'=> 2,'Three'=> 3);
 
 #new syntax in PHP 5.4
 
-echo $associative['one']
-print $associative['two']
+echo $associative['one'];
+print $associative['two'];
 
 
-$array = ['one','two','three']
+$array = ['one','two','three'];
 echo $array[1];
 print $array[0];
 
@@ -178,7 +180,7 @@ var_dump($variablename);
 
 
 //prints variable to human readable format
-print_r($array)
+print_r($array);
 
 /**************
   *** LOGIC
@@ -190,14 +192,14 @@ print_r($array)
 assert( $var1 == $var2); // equality
 assert($c != $d); // inquality 
 assert($c <> $a) // alternate inequality
-assert($a < $c )
-assert($c > $d)
-assert($a <= $b)
-assert($a >= $b)
+assert($a < $c );
+assert($c > $d);
+assert($a <= $b);
+assert($a >= $b);
 
-assert($c == $d)
-assert(1 === 1)
-assert( 1 !=== 1)
+assert($c == $d);
+assert(1 === 1);
+assert( 1 !=== 1);
 
 /*******
 	
