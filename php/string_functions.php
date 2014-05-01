@@ -36,6 +36,65 @@
 	$str23 = "saikiran";
 	$str24 = "kiran";
 	echo chr($str23) + chr($str24); 
+
+	echo "<hr>";
+	echo "<h1>String Functions</h1>";
+	echo "hr";
+	$str = "sample string";
+	//chop function
+	$chop = chop($str,"string");
+	
+	//chr function
+	echo chr(52);
+	echo chr(0x52);
+
+	$str = chr(046);
+  echo("You $str me forever!");
+  $str = chr(43);
+	$str2 = chr(61);
+	echo("2 $str 2 $str2 4"); 
+	
+
+	//CHUNK SPILT FUNCTION
+	//chunk_split(string,length,end)
+	$str = "Hello world!";
+  echo chunk_split($str,1,".");
+  $str1  = "ILOVEYOU";
+  echo $hr;
+  echo chunk_split($str1,1,"^");
+
+  //COUNT CHARS
+  $str = "Hello World!";
+	print_r(count_chars($str,1));
+  echo $hr;
+
+  echo "<h1> CRYPT function </h1>";
+	
+	#CRYPT function
+	echo crypt($str,"pp");
+
+	echo "<hr>";
+	#Explode function
+	#which breaks strings into array
+  #explode(separator,string,limit)
+  $str = 'one,two,three,four';
+	echo explode(",",$str);
+	echo $hr;
+	#Setting Locales
+	setlocale(LC_ALL,"en_US");
+	$locale_info = localeconv();
+	print_r($locale_info);
+	echo $hr;
+	#shuffle characters in a string
+	echo str_shuffle("I LOVE YOU");
+
+
+	/*
+	REFERENCES FOR STRING FUNCTIONS 
+	http://www.w3schools.com/php/php_ref_string.asp
+	www.php.net/manual/en/ref.strings.php
+	*/
+
 ?>
 
 
